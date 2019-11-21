@@ -15,8 +15,7 @@ spec:
       containers:
       - name: fleetman
         image: richardchesterwood/k8s-fleetman-webapp-angular:release0
-      nodeSelector:
-        color: blue
+
 
 ---
 apiVersion: v1
