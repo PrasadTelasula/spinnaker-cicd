@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: webapp
+      app: go-webapp
   template:
     metadata:
       labels:
-        app: webapp
+        app: go-webapp
     spec:
       containers:
         - image: subaniprasad/go_app
